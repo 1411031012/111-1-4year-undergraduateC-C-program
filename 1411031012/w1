@@ -1,0 +1,19 @@
+//兩數相加
+
+#include <stdio.h>
+
+int main(void)
+{
+    int int1, int2, sum;
+    printf("Enter first integer\n");
+    scanf_s("%d", &int1);
+
+    printf("Enter second integer\n");
+    scanf_s("%d", &int2);
+
+
+   sum = int1 + int2;
+
+    printf("sum is %d\n", sum);
+    return 0;
+}
